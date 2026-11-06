@@ -4,6 +4,11 @@
 실습 시간에 "누가 막혀 있는지"를 교사 화면 한 장으로 볼 수 있습니다.
 빌드 도구 없이 HTML + JavaScript + Supabase(CDN)만으로 동작합니다.
 
+**👉 바로 사용하기: https://onezerozerocom.github.io/class-participation/**
+
+> 배포: `public` 폴더 내용이 `gh-pages` 브랜치로 GitHub Pages에 올라갑니다. 고친 뒤 다시 배포하려면
+> `git subtree push --prefix public origin gh-pages` 를 실행하세요.
+
 | 화면 | 기능 |
 |---|---|
 | 학생 | 참여 코드 + 번호로 입장 → 내 상태(🟢 잘 됨 / 🟡 헷갈림 / 🔴 막힘 / ✅ 완료) 선택, **선생님 도와주세요** 요청(메모 가능, 대기 순번 표시), 퀴즈 응답 |
