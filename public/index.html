@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>수업 참여 도구</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🙋</text></svg>" />
+  <meta name="theme-color" content="#8466d8" />
+  <!-- Pretendard: 한글·영문·숫자가 고르게 깔끔한 무료 글꼴 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
+  <link rel="stylesheet" href="style.css?v=9" />
+</head>
+<body>
+  <div id="demo-banner" class="banner" hidden>
+    🧪 <b>체험 모드</b> — <code>config.js</code>에 Supabase 값을 넣기 전까지는 <b>이 브라우저의 탭끼리만</b> 실시간으로 연결됩니다. (README.md 참고)
+  </div>
+
+  <div id="app"><div class="loading">불러오는 중…</div></div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script type="module" src="app.js?v=10"></script>
+</body>
+</html>
